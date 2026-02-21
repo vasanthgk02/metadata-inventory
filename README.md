@@ -56,6 +56,16 @@ uvicorn app.main:app --reload
 | `HTTP_MAX_RETRIES` | `3` | Max retry attempts on transient errors |
 | `LOG_LEVEL` | `INFO` | Python logging level |
 
+## Running Services
+
+| Service | URL | Description |
+|---|---|---|
+| **API** | http://localhost:8000 | FastAPI app |
+| **Swagger UI** | http://localhost:8000/docs | Interactive API docs |
+| **MongoDB UI** | http://localhost:8081 | mongo-express — browse collections, documents and indexes |
+
+After `docker compose up --build`, open **http://localhost:8081** in your browser, navigate to **metadata_inventory → metadata** to see all stored documents.
+
 ## API
 
 Interactive docs: **http://localhost:8000/docs**
