@@ -28,10 +28,6 @@ ENV/
 # pytest
 .pytest_cache/
 .coverage
-
-# project-local scripts and docs
-make_history.py
-challenge.pdf
 htmlcov/
 .tox/
 
