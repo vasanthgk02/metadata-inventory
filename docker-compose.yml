@@ -1,3 +1,5 @@
+name: metadata-inventory
+
 services:
   mongo:
     image: mongo:7
